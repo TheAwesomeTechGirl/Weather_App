@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet"   href="styles.css" />
+    <title>Glowreal's weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-container">
+            <div>
+                <header>
+                    <ul class="menu">
+                        <li class="nav"><a href="#"> lisbon </a></li>
+                        <li class="nav"><a href="/paris"> Paris </a></li>
+                        <li class="nav"><a href="/sydney"> Sydney</a></li>
+                        <li class="nav"><a href="/san-francisco"> San Francisco </a></li>
+                    </ul>
+                </header>
+                <div>
+                    <div class="app">
+                        <div>
+                            <div class="clear-fix">
+                                <form class="float-left">
+                                    <input type="text" placeholder="Enter a city" autocomplete="off" value>
+                                    <input type="submit" class="btn btn-primary" value="search">
+                                    <button class="float-left btn btn-success">Current</button>
+                                </form>
+
+
+                            </div>
+                            <div class="weather-summary">
+                                <div class="weather-summaryheader">
+                                    <h1>Lisbon</h1>
+                                    <div class="weather-text">Friday 1:25</div>
+                                    <div class="weather-text">clouds</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="clear-fix">
+                                        <div class="weather-temp">🌤18</div>
+                                        <span class="weather-unit__text weather-unit__text--today">°C</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="weather-text-detail">
+                                        "Precipitation:"
+                                        "71%"
+                                        <br>
+                                        "Wind:"
+                                        "5km/h"
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <div class="forecast-day">sat</div>
+                                    <div class="forecast-icon">☀️</div>
+                                    <div class="forecast-temperature">19°</div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="forecast-day">sun</div>
+                                    <div class="forecast-icon">☀️</div>
+                                    <div class="forecast-temperature">18°</div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="forecast-day">Mon</div>
+                                    <div class="forecast-icon">☀️</div>
+                                    <div class="forecast-temperature">20°</div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="forecast-day">Tue</div>
+                                    <div class="forecast-icon">☀️</div>
+                                    <div class="forecast-temperature">19°</div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="forecast-day">wed</div>
+                                    <div class="forecast-icon">☀️</div>
+                                    <div class="forecast-temperature">18°</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <small><a href="https://github.com/wecodeschool/react-weather" target="_blank">Open-source code</a>, by <a
+            href="https://www.matdelac.io">Tuke Glory </a> from <a href="https://shecodes.io/">She Codes</a></small>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
